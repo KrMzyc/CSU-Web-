@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    list-style: none;       /*消除 li 前面的小点*/
+
+}
+
+/*.login_bk      !*黑色登录框背景*!*/
+/*{*/
+
+/*    margin-top: 15vh;*/
+/*    margin-right: 3vw;*/
+/*    margin-bottom: 10vh;*/
+/*    float: right;*/
+/*    background: rgba(0,0,0,0.5);*/
+/*    width: 350px;*/
+/*    height: 450px;*/
+/*    padding: 22px 38px;*/
+/*    !* text-align: center; *!*/
+/*}*/
+
+
+.login1      /*登录tab部分*/
+{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:30px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 45%;
+    cursor: pointer;
+}
+
+
+
+.login2      /*登录tab部分*/
+{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    width: 45%;
+    cursor: pointer;
+}
+
+.active                     /*tab框被点击之后的样式*/
+{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 45%;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(162, 224, 248);
+}
+
+.input_ac     /*账号输入框*/
+{
+
+    margin: 20px auto;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 270px;
+}
+
+.input_psw   /*密码输入框*/
+{
+
+    margin: 20px auto;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 270px;
+}
+.account        /*账号登录div*/
+{
+    display: block;
+    height: 450px;
+}
+.phone           /*验证码登录div*/
+{
+    display: none;
+}
+.input_phone       /*手机号码输入框*/
+{
+
+    margin: 20px auto;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 270px;
+}
+
+.input_code       /*验证码输入框*/
+{
+
+    margin: 20px auto;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 170px;
+}
+
+/*.login_button             !*登录按钮*!*/
+/*{*/
+/*    display: inline-block;*/
+/*    margin: 30px auto;*/
+/*    margin-bottom: 25px;*/
+/*    margin-right: 25px;*/
+/*    margin-left: 12px;*/
+/*    height: 30px;*/
+/*    width: 100px;*/
+/*    border-radius: 3px;*/
+/*    background-color: white;*/
+/*    font-family: "楷体";*/
+/*    font-size: 20px;*/
+/*}*/
+
+
+.code_bt              /*获取验证码按钮*/
+{
+    height: 30px;
+    margin-left: 5px;
+}
+
+body
+{
+    background-image: url("./image/bk.jpg");
+    background-size: cover;
+}
+
+
+.img_lunbo
+{
+    width: 500px;
+    height: 320px;
+}
+
+.banner
+{
+    width: 500px;
+    height: 320px;
+    overflow: hidden;  /*隐藏溢出内容且不出现滚动条*/
+    position: relative;
+}
+
+#img_list
+{
+    width: 2500px;  /*有x张图，就需要有x+2张图的宽度，否则轮播会失败*/
+    height: 320px;
+}
+
+#img_list li
+{
+    float:left;
+}
+
+.lunbo{
+    margin: 13vh 8vw;
+    padding: 0;
+    list-style: none;       /*消除 li 前面的小点*/
+    text-decoration: none;  /*默认，没有装饰线*/
+    position: absolute;
+}
+
+
+#icon_list
+{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    list-style: none;
+}
+
+#icon_list li
+{
+    color: white;
+    float: left;
+    height: 10px;
+    width: 10px;
+    border: 3px solid cadetblue;
+    border-radius: 55%;
+    line-height: 50px;
+    margin-right: 15px;
+    font-size: 8px;
+    cursor: pointer;
+}
+

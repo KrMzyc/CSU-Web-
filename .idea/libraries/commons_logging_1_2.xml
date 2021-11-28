@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/commons-logging-1.2.jar!/" />
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/gson-2.2.4.jar!/" />
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/ini4j-0.5.4.jar!/" />
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/jaxb-api-2.3.0.jar!/" />
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/logging-interceptor-2.7.5.jar!/" />
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/okhttp-2.5.0.jar!/" />
+      <root url="jar://D:/tencentcloud-sdk-java-master/tencentcloud-sdk-java-master/vendor/okio-1.12.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
